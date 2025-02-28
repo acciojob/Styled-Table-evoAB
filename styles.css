@@ -1,1 +1,21 @@
 /* your code */
+table {
+	border-spacing: 0;
+	border-radius: 15px;
+	border: 1px solid black;
+	overflow: hidden;
+}
+thead {
+	background-color: #00008B;
+	color: #FFFFFF;
+}
+
+th, td {
+	width: 150px;
+	height: 30px;
+	padding: 10px;
+	text-align: left;
+}
+tr:nth-child(even) {
+	background-color: #f9f9f9;
+}
